@@ -1,0 +1,80 @@
+/* BASE STYLES */
+* {
+    font-family: sans-serif;
+    font-size: 20px
+}
+.navbar {
+    width: 100vw;
+    background-color: #59D9A1;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+  
+.logo {
+    display: inline-block;
+}
+  
+.nav-links {
+    list-style: none;
+}
+  
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+  
+.nav-item:hover {
+    background-color: white;
+}
+
+.sidebar p:hover {
+    background-color: white;
+    color: #242457;
+}
+  
+.nav-item:hover a {
+    color: #59D9A1;
+}
+  
+.logo img {
+    width: 15%;
+    vertical-align: middle;
+}
+
+.sidebar {
+    background-color: #242457;
+    color: white;
+    padding: 3rem;
+}
+
+footer img {
+    width: 3%;
+}
+
+.flex-main {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding-right: 2.5rem;
+}
+
+.image-container{
+    height: 30vh;
+    width: 20vw;
+    background-color: #505FF9;
+    margin: 2rem;
+    color: #fff;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: #59D9A1;
+}
+
+/* CODE YOUR FLEXBOXES HERE */
