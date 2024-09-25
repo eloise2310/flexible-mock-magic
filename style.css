@@ -8,6 +8,9 @@
     background-color: #59D9A1;
     padding-left: 30px;
     padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
   
 .logo {
@@ -16,6 +19,10 @@
   
 .nav-links {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: ;
+
 }
   
 .nav-item a {
@@ -47,6 +54,12 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 5em;
+    align-items: flex-start;
+    padding: 0.5em;
+    align-content: space-evenly;
 }
 
 footer img {
@@ -75,6 +88,8 @@ footer {
     width: 100%;
     padding: 1rem;
     background-color: #59D9A1;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
